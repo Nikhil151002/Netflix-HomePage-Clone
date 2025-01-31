@@ -1,176 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Netflix</title>
-    
-    <link rel="stylesheet" href="NHP.css">
-    <link rel="stylesheet" href="mediaquery.css">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <script src="https://kit.fontawesome.com/bc3a1796c2.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/870/870910.ico'/> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-  </head>
-  <body>
+    <title>🚀 Ranked Projects with Tech Stack</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .tier {
+            margin: 40px 0;
+        }
+        .tier h2 {
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            padding-bottom: 10px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #ff6f61;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .challenges {
+            color: #555;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "• ";
+            color: #ff6f61;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Ranked Projects with Tech Stack</h1>
+    </header>
+    <div class="container">
+        <!-- Your image -->
+        <img src="https://i.ibb.co/r9StfNf/file-89.jpg" alt="Your Image">
 
-    <div class="navbar">
-<li class="logo"><img src="logo.png"></li>
-<li class="buttons">Sign In</a>
+        <!-- Tier 1 -->
+        <div class="tier">
+            <h2>🏆 Tier 1: Game-Changing Projects (Best for Hiring)</h2>
 
-    </div>
-    <div class="main">
-<div class="area">
-  <h1>Unlimited movies, TV <br>shows, and more.</h1>
-  <h3>Watch anywhere. Cancel anytime.
-    </h3>
-
-    <div class="search">
-      <input type="text" class="box" placeholder="Email">
-      <span class="try">
-Try 30 days free <i class="fas fa-chevron-right"></i>
-
-
-      </span>
-</div>
-<h4>Ready to watch? Enter your email to create or access your account
-  </h4>
-    </div>
-   
-    </div>
-    <div class="container1">
-        <div class="text">
-          <h1>Enjoy on your TV.
-            </h1>
-            <p>
-                Watchx on Smart TVs, Playstation, Xbox, <br>
-                Chromecast, Apple TV, Blu-ray players, and<br>
-                 more.
-            </p>
-        </div>
-        <div class="image">
-  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
-        </div>
-      </div>
-      <div class="container1">
-          
-          <div class="image">
-    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile.png">
-          </div>
-          <div class="text">
-              <h1>Download your shows to watch on the go.
-                </h1>
-                <p>
-                    Save your data and watch all your favorites offline.
-                </p>
+            <!-- Project 1 -->
+            <div class="project">
+                <h3><span class="icon">🔥</span>Social Media of Social Media</h3>
+                <p><em>(Aggregates content from multiple social media platforms.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: React.js / Next.js</li>
+                    <li>⚙️ Backend: Node.js + Express.js</li>
+                    <li>💾 Database: MongoDB / PostgreSQL</li>
+                    <li>🔗 APIs: Twitter, Reddit, YouTube, Instagram APIs</li>
+                    <li>☁️ Hosting: Vercel / Firebase / AWS</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> API rate limits, authentication, UI design.</p>
             </div>
-            
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3><span class="icon">⚡</span>Smart Utility Management System</h3>
+                <p><em>(Tracks real-time electricity, water usage, etc.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: React.js / Vue.js</li>
+                    <li>⚙️ Backend: Python (Flask / FastAPI)</li>
+                    <li>🔌 IoT Integration: ESP32 / Raspberry Pi</li>
+                    <li>💾 Database: Firebase (for real-time updates)</li>
+                    <li>📊 Visualization: Chart.js / D3.js</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Real-time data handling, hardware integration.</p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <h3><span class="icon">🗂</span>Distributed File System</h3>
+                <p><em>(Cloud/P2P storage system like Google Drive.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: React.js / Next.js</li>
+                    <li>⚙️ Backend: Python (Django/Flask) or Node.js (Express.js)</li>
+                    <li>☁️ Storage: AWS S3 / IPFS</li>
+                    <li>🔗 File Handling: WebSockets for real-time sharing</li>
+                    <li>🔒 Security: JWT Authentication</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Scalable storage, security, encryption.</p>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project">
+                <h3><span class="icon">💳</span>Robust Payment Retry Mechanism</h3>
+                <p><em>(Ensures failed payments retry automatically.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>⚙️ Backend: Node.js + Express.js / Spring Boot (Java)</li>
+                    <li>💾 Database: PostgreSQL / Redis (for caching retries)</li>
+                    <li>💰 Payment Gateway: Razorpay / Stripe API</li>
+                    <li>🔄 Job Scheduler: Cron Jobs / Celery</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Handling payment failures, retry logic.</p>
+            </div>
         </div>
-        <div class="container1">
-            <div class="text">
-              <h1>Watch everywhere.
 
-                </h1>
-                <p>
-                    Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV without paying more.
+        <!-- Tier 2 -->
+        <div class="tier">
+            <h2>🥈 Tier 2: Strong Portfolio Builders (Practical & Impressive)</h2>
 
-                </p>
+            <!-- Project 5 -->
+            <div class="project">
+                <h3><span class="icon">🎟</span>Real-Time Ticket Booking App</h3>
+                <p><em>(Live seat selection, real-time updates.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: React.js + Tailwind CSS</li>
+                    <li>⚙️ Backend: Node.js + Express.js</li>
+                    <li>💾 Database: MySQL / Firebase</li>
+                    <li>🔗 WebSockets: Socket.io</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Concurrency control, avoiding double bookings.</p>
             </div>
-            <div class="image">
-      <img src="Mh.jpg" height="50px" width="500px"  >
+
+            <!-- Project 6 -->
+            <div class="project">
+                <h3><span class="icon">💰</span>Payment Gateway Integration</h3>
+                <p><em>(Adds secure payment handling.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>⚙️ Backend: Node.js + Express.js</li>
+                    <li>💳 Payment API: Stripe / Razorpay</li>
+                    <li>🔒 Security: JWT Authentication, HTTPS</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Secure payment processing, handling refunds.</p>
             </div>
-          </div>
-          <div class="question">
-            <h1>Frequently Asked Questions
-              </h1>
-              <div class="quest">
-                <div class="textbox">What is Netflix?</div>
-                <i class="las la-plus"></i>
-              </div>
-              <div class="quest">
-                  <div class="textbox">How much does Netflix cost?</div>
-                  <i class="las la-plus"></i>
-                </div>             
-                <div class="quest">
-                    <div class="textbox">Where can I watch?</div>
-                    <i class="las la-plus"></i>
-                  </div>                 <div class="quest">
-                    <div class="textbox">How do I cancel?</div>
-                    <i class="las la-plus"></i>
-                  </div>               
-                  <div class="quest">
-                      <div class="textbox">What can I watch on Netflix??</div>
-                      <i class="las la-plus"></i>
-                    </div>
-                    <div class="quest">
-                        <div class="textbox">What is Netflix?</div>
-                        <i class="las la-plus"></i>                   
-                      </div>    
-                      <div class="search1">
-                          <input type="text" class="box1" placeholder="Email">
-                          <span class="try1">
-                    Try 30 days free <i class="fas fa-chevron-right"></i>
-                    
-                    
-                          </span>
-                          
-                    </div>      
-                    <h4>Ready to watch? Enter your email to create or access your account
-                      </h4>
-                    </div>
-                    <div class="footer">
 
+            <!-- Project 7 -->
+            <div class="project">
+                <h3><span class="icon">📱</span>Social Media App (Text, Video, Image Sections)</h3>
+                <p><em>(A mini Facebook-style app.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: React Native / Flutter</li>
+                    <li>⚙️ Backend: Firebase (Firestore + Storage)</li>
+                    <li>🎥 Video Hosting: Firebase / AWS S3</li>
+                    <li>🔒 Authentication: Firebase Auth</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Media storage, UI/UX design.</p>
+            </div>
+        </div>
 
-                        <div class="footercon">
-                          <div class="flex1">
-                                                    <h5>Questions? Call 1-866-579-7172
-                            </h5>
-                            <h5>
-    </h5>
-                          </div>
-                          
-               <ul class="list1">
-                 
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Investor Relation</a></li>
-                        <li><a href="">Ways to Watch</a></li>
+        <!-- Tier 3 -->
+        <div class="tier">
+            <h2>🥉 Tier 3: Beginner-Friendly (Good for Learning)</h2>
 
-                        <li><a href="">Corporate Information</a></li>
-                        <li><a href="">Netflix Originals</a></li>
-                        </ul>
-                        <ul class="list1">
-                        <li><a href="">Home</a></li>
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Terms of Use</a></li>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">#</a></li>
-                            </ul>
-                            <ul class="list1">
-                                <li><a href="">Account</a></li>
-                                <li><a href="">Redeem Gift Cards</a></li>
-                                <li><a href="">Privacy</a></li>
-                                <li><a href="">Speed Test</a></li>
-                                <li><a href="">#</a></li>
+            <!-- Project 8 -->
+            <div class="project">
+                <h3><span class="icon">💻</span>An OS (Tutorial-Based)</h3>
+                <p><em>(Minimal OS with basic features.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>📝 Language: C / C++</li>
+                    <li>💿 Tools: QEMU (virtualization)</li>
+                    <li>🛠 OS Concepts: Bootloader, Kernel, File System</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> System-level understanding, debugging.</p>
+            </div>
 
-                                </ul>
-                                <ul class="list1">
-                                    <li><a href="">Media Center<</a></li>
-                                    <li><a href="">Buy Gift Cards</a></li>
-                                    <li><a href="">Cookie Preferences</a></li>
-                                    <li><a href="">Legal Notices</a></li>
-                                    <li><a href="">#</a></li>
+            <!-- Project 9 -->
+            <div class="project">
+                <h3><span class="icon">⚙️</span>JavaScript Framework</h3>
+                <p><em>(Build a mini frontend framework like React.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>📝 Language: JavaScript (ES6+)</li>
+                    <li>📚 Core Concepts: Virtual DOM, State Management</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Understanding framework architecture.</p>
+            </div>
 
-                                    </ul>
-                                 
-                    </div>
+            <!-- Project 10 -->
+            <div class="project">
+                <h3><span class="icon">🛡️</span>Iron Doom Defense System</h3>
+                <p><em>(A simple game or simulation.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🎮 Game Engine: Unity (C#) / Phaser.js</li>
+                    <li>🔄 Logic: Enemy waves, score system</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Game physics, AI pathfinding.</p>
+            </div>
 
-                  </div>
-                  <div class="end">
-<h2>
-Netflix US
-</h2> 
-<h2>
-  </h2>                    </div>
-  </body>
-</html>
+            <!-- Project 11 -->
+            <div class="project">
+                <h3><span class="icon">📏</span>BMI Calculator (Tutorial-Based)</h3>
+                <p><em>(A simple app to calculate BMI.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: HTML + CSS + JavaScript</li>
+                    <li>📊 Logic: Simple formula application</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Basic UI design.</p>
+            </div>
+
+            <!-- Project 12 -->
+            <div class="project">
+                <h3><span class="icon">🧮</span>Calculator (Mandatory but Common)</h3>
+                <p><em>(Basic UI with arithmetic operations.)</em></p>
+                <p><strong>📌 Tech Stack:</strong></p>
+                <ul>
+                    <li>🌐 Frontend: HTML + CSS + JavaScript</li>
+                    <li>🔢 Logic: DOM manipulation for calculations</li>
+                </ul>
+                <p class="challenges"><strong>📌 Challenges:</strong> Making it look good.</p>
+            </div>
+        </div>
+
+        <!-- Final Suggestions -->
+        <div class="tier">
+            <h2>🎯 Final Suggestion</h2>
+            <p><strong>Best Choice for Hiring (Do 1-2):</strong> 🏆 Social Media of Social Media, Distributed File System, Smart Utility System</p>
+            <p><strong>Medium Effort but Impressive:</strong> 🎟 Ticket Booking App, Payment Retry Mechanism</p>
+            <p><strong>Easiest to Start:</strong> 🛠 Calculator, BMI Calculator, JavaScript Framework</p>
+        </div>
+    </div>
+</body>
+              </html>
